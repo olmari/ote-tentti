@@ -25,21 +25,25 @@ public class UserController {
         return repository.findAll();
     }
 
+    @CrossOrigin(origins = "http://localhost:3000")
     @GetMapping("/user/{id}")
     public Optional<User> getOne(@PathVariable("id") int id) {
         return repository.findById(id);
     }
 
+    @CrossOrigin(origins = "http://localhost:3000")
     @PostMapping("/user")
     public User create(@RequestBody User item) {
         return repository.save(item);
     }
 
+    @CrossOrigin(origins = "http://localhost:3000")
     @PutMapping("/user")
     public User update(@RequestBody User item) {
         return repository.save(item);
     }
 
+    @CrossOrigin(origins = "http://localhost:3000")
     @DeleteMapping("/user/{id}")
     public void delete(@PathVariable("id") int id) {
         repository.deleteById(id);

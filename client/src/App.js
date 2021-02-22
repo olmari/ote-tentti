@@ -5,7 +5,16 @@ import UserContainer from './containers/UserContainer';
 function App() {
   return (
     <div className="App">
-      <UserContainer/>
+      <table>
+        <thead>
+          <tr>
+            <td><UserContainer/></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </thead>
+      </table>
+      
     </div>
   );
 }
