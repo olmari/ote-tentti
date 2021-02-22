@@ -16,6 +16,6 @@
 
 ## 8. Päivitä muutokset git-projektiisi versiohaaraan tentti (voit päivittää kaikkien edellä olevien kohtien jälkeen, jotta näen, että olet tehnyt pala kerralla)
 
-## 9. Lisää timojkankaanpaa githuh-projektisi collaboratoriksi
+## 9. Lisää timojkankaanpaa github-projektisi collaboratoriksi
 
 ## 10. Palauta git-projektisi URL
