@@ -1,0 +1,7 @@
+jdbcSettings:
+  url: "jdbc:mariadb://mariadb.vamk.fi:3306/tka_tentti"
+  username: "tka"
+  password: "xpYxgPK3Cm8"
+  driverClassName: "org.mariadb.jdbc.Driver"
+
+packageName: "fi.vamk.tentti"
